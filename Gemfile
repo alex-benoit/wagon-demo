@@ -23,7 +23,9 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'figaro'
 gem 'cloudinary'
-gem 'carrierwave', '~> 0.11.2'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'jquery-fileupload-rails'
+gem 'simple_form'
 
 
 # Use jquery as the JavaScript library
