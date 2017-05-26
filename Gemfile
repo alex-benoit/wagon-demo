@@ -1,3 +1,4 @@
+ruby '2.3.3'
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -22,6 +23,8 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'figaro'
 gem 'cloudinary'
+gem 'carrierwave', '~> 0.11.2'
+
 
 
 # Use jquery as the JavaScript library
